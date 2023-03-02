@@ -46,6 +46,6 @@
                       = ("100%")
                 echo4 = ("progress berhasil!")
                 if false = 
-                      = ("progress gagal, ilangi lagi nanti")
+                      = ("progress gagal, ulangi lagi nanti")
                 ]
             }
