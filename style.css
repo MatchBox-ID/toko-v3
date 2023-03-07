@@ -8,52 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-/*
-HOME
-*/
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
-*{
-.contenedor-header{
-    background: #1e2326;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.contenedor-header header{
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-}
-.contenedor-header header .logo a{
-    font-family: 'Righteous';
-    font-size: 36px;
-    color: #1CB698;
-    text-decoration: none;
-}
-.contenedor-header header ul{
-    display: flex;
-    list-style: none;
-}
-.contenedor-header header nav ul li a{
-    text-align: none;
-    color: #fff;
-    margin: 0 15px;
-    padding: 3px;
-    transition: .5s;
-    text-decoration: none;
-}
-.contenedor-header header nav ul li a:hover{
-    color: #1CB698;
-}
-/*
-END Home
-*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #4d4643;
@@ -110,15 +64,7 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
-/* Admin Badge on Blogger Comments by igniel.com */
-#comments .comments-content .icon.blog-author{
-  width: 16px;
-  height: 16px;
-  margin-left: 5px;
-  vertical-align: -3px;
-  display: inline-block;
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='download.png'%3E%3Cpath d='M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z' fill='%23118ff9'/%3E%3C/png%3E") no-repeat center center;
-}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
