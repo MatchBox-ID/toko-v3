@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Admin Badge on Blogger Comments by igniel.com */
+#comments .verified .icon.blog-author{
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  vertical-align: -3px;
+  display: inline-block;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z' fill='%23118ff9'/%3E%3C/svg%3E") no-repeat center center;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #4d4643;
