@@ -16,6 +16,16 @@
     <form class="form1">
       <input class="un " type="text" align="center" placeholder="Username">
       <input class="pass" type="password" align="center" placeholder="Password">
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script>
+        function onSubmit(token) {
+          document.getElementById("demo-form").submit();
+        }
+      </script>
+      <form id="demo-form" action="?" method="post">
+        <button class="g-recaptcha" data-sitekey="6LdfQ_MkAAAALPJHkvZPCKOqU-fYwuZKZySDUam" data-callback="onSubmit">Submit</button>
+        <br/>
+        </form>
       <a href="Sukses2.html" class="submit" align="center">Sign in</a>
       <p class="forgot" align="center"><a href="#">Forgot Password?</p>
       <p class="forgot" align="center"><a href="regristrasi.html">Create A Account</p>
