@@ -1,31 +1,29 @@
-
-
-<html>
-
-<head>
-  <link rel="stylesheet" href="login.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<div class="background-wrap">
+  <div class="background"></div>
+</div>
   <script src='https://www.google.com/recaptcha/api.js'></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <title>Sign in</title>
-</head>
+    <link rel="stylesheet" href="login.css">
 
-<body>
-  <div class="main">
-    <p class="sign" align="center">Sign in</p>
-    <form class="form1">
-      <input class="un " type="text" align="center" placeholder="Username">
-      <input class="pass" type="password" align="center" placeholder="Password">
-      <div class="g-recaptcha" data-sitekey="6LePSvMkAAAAAFigtKoGi2_KNXruf7dK3HJSTgfE"></div>
-      <a href="Sukses2.html" class="submit" align="center">Sign in</a>
-      <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-      <p class="forgot" align="center"><a href="regristrasi.html">Create A Account</p>
-            
-                
+<form id="accesspanel" action="login" method="post">
+  <h1 id="litheader">MATCHBOX</h1>
+  <div class="inset">
+    <p>
+      <input type="text" name="username" id="email" placeholder="Email address">
+    </p>
+    <p>
+      <input type="password" name="password" id="password" placeholder="Access code">
+    </p>
+    <div style="text-align: center;">
+      <div class="checkboxouter">
+        <input type="checkbox" name="rememberme" id="remember" value="Remember">
+        <label class="checkbox"></label>
+      </div>
+      <label for="remember">Saya Menyetujui Syarat Dan Ketentuan Dari Matchbox</label>
     </div>
-     
-</body>
-
-</html>
-
+    <input class="loginLoginValue" type="hidden" name="service" value="login" />
+  </div>
+  <p class="p-container">
+      <div class="g-recaptcha" data-sitekey="6LePSvMkAAAAAFigtKoGi2_KNXruf7dK3HJSTgfE"></div>
+    <input type="submit" name="Login" id="go" value="Authorize">
+  </p>
+</form>
