@@ -3,7 +3,7 @@
   "description": "Website by bootstrapmade",
   "version": "1.0.2",
   "person": "bootstrap <support@bootstrapmade.com>",
-  "main": "dist/index.js",
+  "main": "index.html",
   "scripts": {
     "prepare": "npm run build",
     "build": "npx microbundle",
