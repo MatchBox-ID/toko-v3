@@ -1,7 +1,24 @@
-<!-- ==== Main Style CSS ==== -->
-<link href="style.css" rel="stylesheet">
+<!DOCTYPE html>
+<html>
 
-<img alt="Halaman Tidak Ditemukan" 
-     src="demo_2.gif"/>
-<h3>Page Not Found</h3>
-<a href="index.html" class=".filter-app"><button>Kembali Ke Halaman Utama</button></a>
+<head>
+    <title>Space | tsParticles 404</title>
+    <link type="text/css" rel="stylesheet" href="404.css" />
+    <link rel="icon" type="image/x-icon" href="../images/tsParticles-64.png">
+</head>
+
+<body class="permission_denied">
+    <div id="tsparticles"></div>
+    <div class="denied__wrapper">
+        <h1>404</h1>
+        <h3>ERROR <span>PAGE</span> App-Name? Hmm, looks like that page doesn't exist.</h3>
+        <img id="astronaut" src="astronaut.svg" />
+        <img id="planet" src="planet.svg" />
+        <a href="./index"><button class="denied__link">Go Home</button></a>
+    </div>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/tsparticles@2.3.4/tsparticles.bundle.min.js"></script>
+    <script type="text/javascript" src="404.js"></script>
+
+</html>
