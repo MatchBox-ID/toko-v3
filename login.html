@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="MATCHBOX" property="og:title">
-<meta content="FREE hosting for Bots" property="og:description">
+<meta content="MATCHBOX LOGIN" property="og:title">
+<meta content="MATCHBOX LOGIN" property="og:description">
 <meta content='icon.png' property="og:image">
 
-<meta name="csrf-token" content="hkvdsDklu075IGEaapUBqxrtodOGdYBUaWVZxO8a">
+<meta name="csrf-token" content="Ubu7bsPYgbRvgmGcoMf5ECSxgcz4eEuiWAQ9smKI">
 <title>MATCHBOX LOGIN</title>
-<link rel="icon" href="https://billing.botcahx.biz.id/storage/favicon.ico" type="image/x-icon">
+<link rel="icon" href="icon.png" type="image/x-icon">
 <script src="https://billing.botcahx.biz.id/js/app.js" defer></script>
 
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -20,20 +20,28 @@
     </noscript>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <link rel="preload" as="style" href="https://billing.botcahx.biz.id/build/assets/app-bac23d88.css" /><link rel="stylesheet" href="https://billing.botcahx.biz.id/build/assets/app-bac23d88.css" /></head>
-<body class="hold-transition dark-mode login-page">
-<div class="login-box">
-
+<body class="hold-transition dark-mode register-page">
+<div class="register-box">
 <div class="card card-outline card-primary">
 <div class="card-header text-center">
-<a href="https://billing.botcahx.biz.id" class="h1"><b class="mr-1">MATCHBOX LOGIN</b></a>
+<a href="./index" class="h1"><b class="mr-1">LOGIN</b></a>
 </div>
 <div class="card-body">
-<p class="login-box-msg">Sign in to start your session</p>
-<form action="https://matchstore.netlify.app" method="post">
-<input type="hidden" name="_token" value="hkvdsDklu075IGEaapUBqxrtodOGdYBUaWVZxO8a">
+<p class="login-box-msg">Register a new membership</p>
+<form method="POST" action="./sukses">
+<input type="hidden" name="_token" value="Ubu7bsPYgbRvgmGcoMf5ECSxgcz4eEuiWAQ9smKI"> <div class="form-group">
+<div class="input-group">
+<input type="text" class="form-control " name="name" value="" placeholder="Username" required autocomplete="name" autofocus>
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-user"></span>
+</div>
+</div>
+</div>
+</div>
 <div class="form-group">
 <div class="input-group mb-3">
-<input type="text" name="email" class="form-control " placeholder="Email or Username">
+<input type="email" name="email" class="form-control  " placeholder="Email" value="" required autocomplete="email">
 <div class="input-group-append">
 <div class="input-group-text">
 <span class="fas fa-envelope"></span>
@@ -43,7 +51,7 @@
 </div>
 <div class="form-group">
 <div class="input-group mb-3">
-<input type="password" name="password" class="form-control " placeholder="Password">
+<input type="password" class="form-control " placeholder="Password" name="password" required autocomplete="new-password">
 <div class="input-group-append">
 <div class="input-group-text">
 <span class="fas fa-lock"></span>
@@ -51,44 +59,44 @@
 </div>
 </div>
 </div>
+<div class="input-group mb-3">
+<input type="text" value="" class="form-control" name="referral_code" placeholder="Referral code (optional)">
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-user-check"></span>
+</div>
+</div>
 </div>
 <div class="input-group mb-3">
 <div class="g-recaptcha" data-sitekey="6LeXMAwlAAAAAKxGvHiMbDN40aaeNpaU3W0emDCb" data-size="normal" data-theme="dark" id="recaptcha-element"></div>
+</div>
 <div class="row">
-<div class="col-8">
+<div class="col-12">
 <div class="icheck-primary">
-<input type="checkbox" name="remember" id="remember">
-<label for="remember">
-Remember Me
+<input type="checkbox" id="agreeTerms" name="terms" value="agree">
+<label for="agreeTerms">
+I agree to the <a target="_blank" href="./privacy">Terms of Service</a>
 </label>
+</div>
 </div>
 </div>
 
 <div class="col-4">
-<button type="submit" class="btn btn-primary btn-block">Sign In</button>
+<button type="submit" class="btn btn-primary">Login</button>
 </div>
 
 </div>
 </form>
-
-<p class="mb-1">
-<a class="" href="#">
-Forgot Your Password?
-</a>
-</p>
-<p class="mb-0">
-<a href="#" class="text-center">Register a new membership</a>
-</p>
+<a href="./regristrasi" class="text-center">Create Account</a>
 </div>
 
 </div>
-
 </div>
 
 <div class="fixed-bottom ">
 <div class="container text-center">
 <a href="#"><strong>Imprint</strong></a> |
-<a href="#"><strong>Privacy</strong></a>
+<a href="./privacy"><strong>Privacy</strong></a>
 | <a target="_blank" href="#"><strong>Terms of Service</strong></a>
 </div>
 </div>
