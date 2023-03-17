@@ -1,32 +1,115 @@
-
-
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="regristrasi.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <title>Sign up</title>
-</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="MATCHBOX DAFTAR" property="og:title">
+<meta content="Matchbox Daftar" property="og:description">
+<meta content='icon.png' property="og:image">
 
-<body>
-  <div class="main">
-    <p class="sign" align="center">Sign up</p>
-    <form class="form1" method="post">
-      <input class="un " type="ussername" align="center" placeholder="Create Ussername">
-      <input class="pass" type="password" align="center" placeholder="Create Password">
-      <div class="g-recaptcha" data-sitekey="6LeXMAwlAAAAAKxGvHiMbDN40aaeNpaU3W0emDCb"></div>
-      <a href="./Sukses" class="submit" align="center">Sign Up</a>
-      <p class="forgot" align="center"><a href="./login">Sign In</p>
-            
-                
-      <script src="validation.js"></script>
-      
-    </div>
-     
+<meta name="csrf-token" content="Ubu7bsPYgbRvgmGcoMf5ECSxgcz4eEuiWAQ9smKI">
+<title>MATCHBOX DAFTAR</title>
+<link rel="icon" href="icon.png" type="image/x-icon">
+<script src="https://billing.botcahx.biz.id/js/app.js" defer></script>
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="preload" href="https://billing.botcahx.biz.id/plugins/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+        <link rel="stylesheet" href="https://billing.botcahx.biz.id/plugins/fontawesome-free/css/all.min.css">
+    </noscript>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<link rel="preload" as="style" href="https://billing.botcahx.biz.id/build/assets/app-bac23d88.css" /><link rel="stylesheet" href="https://billing.botcahx.biz.id/build/assets/app-bac23d88.css" /></head>
+<body class="hold-transition dark-mode register-page">
+<div class="register-box">
+<div class="card card-outline card-primary">
+<div class="card-header text-center">
+<a href="https://billing.botcahx.biz.id" class="h1"><b class="mr-1">DAFTAR</b></a>
+</div>
+<div class="card-body">
+<p class="login-box-msg">REGISTER A NEW MEMBERSHIP</p>
+<input type="hidden" name="_token" value="Ubu7bsPYgbRvgmGcoMf5ECSxgcz4eEuiWAQ9smKI"> <div class="form-group">
+<div class="input-group">
+<input type="text" class="form-control " name="name" value="" placeholder="Username" required autocomplete="name" autofocus>
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-user"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group mb-3">
+<input type="email" name="email" class="form-control  " placeholder="Email" value="" required autocomplete="email">
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-envelope"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-group mb-3">
+<input type="password" class="form-control " placeholder="Password" name="password" required autocomplete="new-password">
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-lock"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="input-group mb-3">
+<input type="password" class="form-control" name="password_confirmation" placeholder="Retype password" required autocomplete="new-password">
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-lock"></span>
+</div>
+</div>
+</div>
+<div class="input-group mb-3">
+<input type="text" value="" class="form-control" name="referral_code" placeholder="Referral code (optional)">
+<div class="input-group-append">
+<div class="input-group-text">
+<span class="fas fa-user-check"></span>
+</div>
+</div>
+</div>
+<div class="input-group mb-3">
+<div class="g-recaptcha" data-sitekey="6LcJcjwUAAAAAO_Xqjrtj9wWufUpYRnK6BW8lnfn" data-size="normal" data-theme="dark" id="recaptcha-element"></div>
+</div>
+<div class="row">
+<div class="col-12">
+<div class="icheck-primary">
+<input type="checkbox" id="agreeTerms" name="terms" value="agree">
+<label for="agreeTerms">
+I agree to the <a target="_blank" href="#">Terms of Service</a>
+</label>
+</div>
+</div>
+</div>
+
+<div class="col-4">
+<a href="./sukses"><button type="submit" class="btn btn-primary">Register</button></a>
+</div>
+
+</div>
+</form>
+<a href="https://billing.botcahx.biz.id/login" class="text-center">I already have a membership</a>
+</div>
+
+</div>
+</div>
+
+<div class="fixed-bottom ">
+<div class="container text-center">
+<a href="https://billing.botcahx.biz.id/imprint"><strong>Imprint</strong></a> |
+<a href="https://billing.botcahx.biz.id/privacy"><strong>Privacy</strong></a>
+| <a target="_blank" href="https://billing.botcahx.biz.id/tos"><strong>Terms of Service</strong></a>
+</div>
+</div>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.1/dist/sweetalert2.all.min.js"></script>
+<script>
+    
+    </script>
 </html>
-
