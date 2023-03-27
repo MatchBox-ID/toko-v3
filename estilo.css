@@ -61,7 +61,7 @@ html{
     url(img/fondo.jpg);
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color: #0000FF;
     display: flex;
     align-items: center;
 }
