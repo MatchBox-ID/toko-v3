@@ -1169,7 +1169,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #191919;
+  background: #fff;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
@@ -1236,7 +1236,7 @@ section {
 }
 
 .pricing ul .na {
-  color: #ffffff;
+  color: #ccc;
   text-decoration: line-through;
 }
 
@@ -1279,7 +1279,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1CB698;
+  background: #ffffff;
   color: #000000;
 }
 
