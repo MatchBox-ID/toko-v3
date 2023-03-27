@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Righteous";
   color: #4d4643;
 }
 
@@ -416,7 +416,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Righteous";
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
