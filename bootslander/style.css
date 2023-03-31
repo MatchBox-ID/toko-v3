@@ -617,7 +617,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #0000FF;
 }
 
 /*--------------------------------------------------------------
@@ -692,7 +692,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #0000FF;
   margin-bottom: 15px;
 }
 
@@ -859,7 +859,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #010483;
+  color: #0000FF;
   transition: ease-in-out 0.3s;
 }
 
@@ -909,7 +909,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: #0000FF;
 }
 
 .counts .count-box p {
@@ -929,7 +929,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #0000FF;
 }
 
 .details .content ul {
@@ -1377,7 +1377,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #0000FF;
 }
 
 .contact .info p {
