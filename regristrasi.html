@@ -1,116 +1,58 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="MATCHBOX DAFTAR" property="og:title">
-<meta content="Matchbox Daftar" property="og:description">
-<meta content='icon.png' property="og:image">
+	<title>Registration</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<style>
+		body {
+			font-family: 'Righteous', cursive;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="card mt-5">
+					<div class="card-header text-center">
+						<h3>Registration</h3>
+					</div>
+					<div class="card-body">
+						<form action="#" method="post">
+							<div class="form-group">
+								<label for="username">Username:</label>
+								<input type="text" class="form-control" id="username" name="username">
+							</div>
+							<div class="form-group">
+								<label for="email">Email:</label>
+								<input type="email" class="form-control" id="email" name="email">
+							</div>
+							<div class="form-group">
+								<label for="password">Password:</label>
+								<input type="password" class="form-control" id="password" name="password">
+							</div>
+							<div class="form-group">
+								<label for="confirm_password">Confirm Password:</label>
+								<input type="password" class="form-control" id="confirm_password" name="confirm_password">
+							</div>
+							<div class="form-group">
+								<div class="g-recaptcha" data-sitekey="6LeXMAwlAAAAAKxGvHiMbDN40aaeNpaU3W0emDCb"></div>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block" name="register">Register</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<meta name="csrf-token" content="Ubu7bsPYgbRvgmGcoMf5ECSxgcz4eEuiWAQ9smKI">
-<title>MATCHBOX DAFTAR</title>
-<link rel="icon" href="icon.png" type="image/x-icon">
-<script src="https://billing.botcahx.biz.id/js/app.js" defer></script>
-
-<link rel="dns-prefetch" href="//fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-<link rel="preload" href="https://billing.botcahx.biz.id/plugins/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript>
-        <link rel="stylesheet" href="https://billing.botcahx.biz.id/plugins/fontawesome-free/css/all.min.css">
-    </noscript>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<link rel="preload" as="style" href="https://billing.botcahx.biz.id/build/assets/app-bac23d88.css" /><link rel="stylesheet" href="https://billing.botcahx.biz.id/build/assets/app-bac23d88.css" /></head>
-<body class="hold-transition dark-mode register-page">
-<div class="register-box">
-<div class="card card-outline card-primary">
-<div class="card-header text-center">
-<a href="#" class="h1"><b class="mr-1">DAFTAR</b></a>
-</div>
-<div class="card-body">
-<p class="login-box-msg">REGISTER A NEW MEMBERSHIP</p>
-<input type="hidden" name="_token" value="Ubu7bsPYgbRvgmGcoMf5ECSxgcz4eEuiWAQ9smKI"> <div class="form-group">
-<div class="input-group">
-<input type="text" class="form-control " name="name" value="" placeholder="Username" required autocomplete="name" autofocus>
-<div class="input-group-append">
-<div class="input-group-text">
-<span class="fa-solid fa-user"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="form-group">
-<div class="input-group mb-3">
-<input type="email" name="email" class="form-control  " placeholder="Email" value="" required autocomplete="email">
-<div class="input-group-append">
-<div class="input-group-text">
-<span class="fa-regular fa-envelope"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="form-group">
-<div class="input-group mb-3">
-<input type="password" class="form-control " placeholder="Password" name="password" required autocomplete="new-password">
-<div class="input-group-append">
-<div class="input-group-text">
-<span class="fa-regular fa-key"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="input-group mb-3">
-<input type="password" class="form-control" name="password_confirmation" placeholder="Retype password" required autocomplete="new-password">
-<div class="input-group-append">
-<div class="input-group-text">
-<span class="fa-regular fa-key"></span>
-</div>
-</div>
-</div>
-<div class="input-group mb-3">
-<input type="text" value="" class="form-control" name="referral_code" placeholder="Referral code (optional)">
-<div class="input-group-append">
-<div class="input-group-text">
-<span class="fa-solid fa-square-terminal"></span>
-</div>
-</div>
-</div>
-<div class="input-group mb-3">
-<div class="g-recaptcha" data-sitekey="6LcJcjwUAAAAAO_Xqjrtj9wWufUpYRnK6BW8lnfn" data-size="normal" data-theme="dark" id="recaptcha-element"></div>
-</div>
-<div class="row">
-<div class="col-12">
-<div class="icheck-primary">
-<input type="checkbox" id="agreeTerms" name="terms" value="agree">
-<label for="agreeTerms">
-I agree to the <a target="_blank" href="#">Terms of Service</a>
-</label>
-</div>
-</div>
-</div>
-
-<div class="col-4">
-<a href="./otp"><button type="submit" class="btn btn-primary">Register</button></a>
-</div>
-
-</div>
-</form>
-<a href="./login" class="text-center">I already have a membership</a>
-</div>
-
-</div>
-</div>
-
-<div class="fixed-bottom ">
-<div class="container text-center">
-<a href="#"><strong>Imprint</strong></a> |
-<a href="./privacy"><strong>Privacy</strong></a>
-| <a target="_blank" href="#"><strong>Terms of Service</strong></a>
-</div>
-</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.1/dist/sweetalert2.all.min.js"></script>
-<script>
-  <script src="https://kit.fontawesome.com/9941f38f89.js" crossorigin="anonymous"></script>
-    
-    </script>
 </html>
