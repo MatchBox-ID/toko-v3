@@ -1,0 +1,47 @@
+/* Set background color */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Set padding for container */
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Set margin for card */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Set margin for transaction history table */
+.table {
+    margin-top: 20px;
+}
+
+/* Set font size for card title and balance */
+.card-title,
+.card-text {
+    font-size: 1.5rem;
+}
+
+/* Set font size for transaction history table */
+.table th,
+.table td {
+    font-size: 1.2rem;
+}
+
+/* Set font weight for transaction history table header */
+.table thead th {
+    font-weight: bold;
+}
+
+/* Center align transaction history table header */
+.table thead th {
+    text-align: center;
+}
+
+/* Center align transaction history table data */
+.table td {
+    text-align: center;
+}

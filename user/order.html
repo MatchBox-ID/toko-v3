@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Order</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+	<style>
+		body {
+			font-family: monospace;
+		}
+	</style>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#"><strong>My Order</strong></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">My Profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container my-4">
+			<h1>My Order</h1>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Order #1234</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non nulla tellus, quis viverra dolor.</p>
+							<a href="#" class="btn btn-primary">View Order</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Filter</h5>
+							<form>
+								<div class="form-group">
+									<label for="status">Status</label>
+									<select class="form-control" id="status">
+										<option selected>All</option>
+										<option>Pending</option>
+										<option>Completed</option>
+										<option>Cancelled</option>
+									</select>
+								</div>
+								<button type="submit" class="btn btn-primary">Filter</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container text-center py-3">
+			<p>&copy; 2023 My Order</p>
+		</div>
+	</footer>
+
+	<!-- jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
