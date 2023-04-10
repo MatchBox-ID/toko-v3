@@ -1636,6 +1636,7 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+  font-family: monospace;
 }
 
 @media (max-width: 575px) {
