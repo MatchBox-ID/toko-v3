@@ -2225,6 +2225,7 @@ section {
   padding-top: 5px;
   font-size: 13px;
   color: #fff;
+  font-family: monospace;
 }
 
 #footer .social-links a {
