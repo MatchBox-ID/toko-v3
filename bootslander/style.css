@@ -447,7 +447,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: monospace;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1241,7 +1241,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: monospace;
   font-weight: 600;
   transition: 0.3s;
 }
