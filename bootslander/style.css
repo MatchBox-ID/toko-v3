@@ -1628,6 +1628,7 @@ section {
   border-top: 1px solid #010479;
   text-align: center;
   padding-top: 30px;
+  font-family: monospace;
 }
 
 #footer .credits {
